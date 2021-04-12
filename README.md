@@ -29,8 +29,8 @@ However, when we break the results down by lot, we can see that lot 3 fails to m
 ## T-Tests on Suspension Coils
 
 We used the following hypotheses and significance level for our t-Tests:
-- H0 : There is no statistical difference between the observed sample mean and its presumed population mean.
-- Ha : There is a statistical difference between the observed sample mean and its presumed population mean.
+- H0 : There is no statistical difference between the two means.
+- Ha : There is a statistical difference between the two means.
 - Significance Level: 0.05
 
 ### T-Test: All Manufacturing Lots
@@ -54,10 +54,12 @@ We used the following hypotheses and significance level for our t-Tests:
 ![ttest4](/resources/ttest4.PNG)
 
 ## Study Design: MechaCar vs Competition
-One of the main metrics that would be of interest to a consumer when choosing a car is affordability, so in this study I have chosen to focus on how cost affects MechaCar and its competition. 
+One of the main metrics that would be of interest to a consumer when choosing a car is affordability, so in this study I have chosen to focus on how cost affects the consumer's decision to choose MechaCar over its competition. 
 
-H0 : Cost does not affect the consumer's decision to choose MechaCar over its competitors.
-Ha : Cost does affect the consumer's decision to choose MechaCar over its competitors.
+The following hypotheses and significance level will be used for our tests:
+- H0 : Cost does not affect the consumer's decision to choose MechaCar over its competitors.
+- Ha : Cost does affect the consumer's decision to choose MechaCar over its competitors.
+- Significance level: 0.05
 
 Since we will be analysing how cost impacts the consumer's behaviour in MechaCar's many competitors, we will need to use a statistical test that allows us to determine if there is a statistical difference in the means from multiple samples. Therefore, we will be using the ANOVA test.
 
