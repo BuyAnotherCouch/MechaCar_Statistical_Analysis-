@@ -1,6 +1,11 @@
 # MechaCar_Statistical_Analysis-
 
 ## Linear Regression to Predict MPG
+
+H0 : The slope of the linear model is zero, or m = 0
+Ha : The slope of the linear model is not zero, or m ≠ 0
+Significance Level: 0.05
+
 - From our analysis, we determined that the intercept, vehicle length and ground clearance are statistically unlikely to provide random amounts of variance to the mpg values in the dataset.
 
 - Our p-value is 5.35e-11, which is significantly lower than our assumed significance level of 0.05%. This means that there is enough evidence to reject our null hypothesis and assume that the slope of the linear model is not zero.
@@ -29,11 +34,14 @@ Significance Level: 0.05
 - Our p-value is 0.04 which is lower than our significance level. Therefore our null hypothesis fails and we can conclude that the two means are not similar.
 
 ## Study Design: MechaCar vs Competition
+One of the main metrics that would be of interest to a consumer when choosing a car is affordability, so in this study I have chosen to focus on how cost affects MechaCar and its competition. 
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+H0 : Cost does not affect the consumer's decision to choose MechaCar over its competitors.
+Ha : Cost does affect the consumer's decision to choose MechaCar over its competitors.
 
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+Since we will be analysing how cost impacts the consumer's behaviour in MechaCar's many competitors, we will need to use a statistical test that allows us to determine if there is a statistical difference in the means from multiple samples. Therefore, we will be using the ANOVA test.
+
+To preform this test, we will need the following data:
+- Cost will be our dependent, continuous variable.
+- The manufacturer will be our independent, categorical variable.
+- Household income will also be used as an independent, categorical variable when analysing the consumers' spending power.
