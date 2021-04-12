@@ -1,10 +1,10 @@
 # MechaCar_Statistical_Analysis-
 
 ## Linear Regression to Predict MPG
-
-H0 : The slope of the linear model is zero, or m = 0
-Ha : The slope of the linear model is not zero, or m ≠ 0
-Significance Level: 0.05
+For our linear regression model, we used the following hypotheses and significance level:
+- H0 : The slope of the linear model is zero, or m = 0
+- Ha : The slope of the linear model is not zero, or m ≠ 0
+- Significance Level: 0.05
 
 ![lm](/resources/lm.PNG)
 
@@ -28,9 +28,10 @@ However, when we break the results down by lot, we can see that lot 3 fails to m
 
 ## T-Tests on Suspension Coils
 
-H0 : There is no statistical difference between the observed sample mean and its presumed population mean.
-Ha : There is a statistical difference between the observed sample mean and its presumed population mean.
-Significance Level: 0.05
+We used the following hypotheses and significance level for our t-Tests:
+- H0 : There is no statistical difference between the observed sample mean and its presumed population mean.
+- Ha : There is a statistical difference between the observed sample mean and its presumed population mean.
+- Significance Level: 0.05
 
 ### T-Test: All Manufacturing Lots
 - Our p-value is 0.06 which is higher than our significance level. Therefore our null hypothesis passes and we can conclude that the two means are similar.
